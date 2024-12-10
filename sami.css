@@ -1,0 +1,263 @@
+body {
+    background-image: url(HomeBG.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: max(1100px , 100vw);
+    height: 110vh;
+    
+}
+
+.box {
+    height: 100%;
+    width: 100%;
+}
+
+.top {
+    height: 90px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    
+}
+
+.nav {
+    height: 90px;
+    width: 107%;
+    position: inherit;
+    padding: 24px;
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    width: 20%px;
+    height: 90px;
+    padding: 2px;
+    background-color: rgb(245, 245, 245);
+    border-radius: 5px;
+    box-shadow: 0px 3px 5px rgb(95, 90, 90)
+}
+
+.logo {
+    height: 90px;
+    width: 120px;
+}
+
+.middle {
+    width: 80%;
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: ;
+}
+ul {
+    border: 1px solid black;
+    border-radius: 44px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    width: 245px;
+    box-shadow: 0px 3px 5px rgb(171, 164, 164);
+    
+}
+li {
+    padding: 5px;
+    
+}
+
+.right {
+    width: 20%;
+    height: 90px;
+    align-content: center;
+}
+
+
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 4px;
+}
+
+.t1 {
+    border: 1px solid white;
+    width: 100px;
+    padding: 0px 0px 0px 22px;
+    background-color: white;
+}
+
+.dropdown a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    
+}
+
+.right:hover  .dropdown{
+    display: block;
+}
+
+.dropdown a:hover {
+    background-color: rgb(173, 168, 168);
+}
+
+span {
+    font-size: 5vw;
+    font-weight: 800px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.box2 {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    
+}
+    
+
+.center {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 50px 0px 50px;
+    text-size-adjust: ;
+}
+
+.title {
+    color: purple;
+    display: flex;
+    justify-content: center;
+}
+p {
+    display: flex;
+    justify-content: center;
+    color: rgb(118, 59, 118);
+    font-weight: 500;
+    font-size: 1.8vw;
+    width: 60%;
+    height: 85px;
+}
+
+.button {
+    width: max(20vw,30px);
+    border-radius: 24px;
+    padding: 6px;
+}
+   
+.body {
+    margin: 0px;
+    padding: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.center1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 29vw;
+    background: white;
+    border-radius: 10px;
+    padding: 0 0 15px 0;
+    box-shadow: 2px 3px 5px rgb(95, 90, 90);
+    background-color: rgb(241, 226, 241);
+}
+
+.center1 h1 {
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid silver;
+}
+
+.center1 form {
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+form .text {
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 30px 0;
+}
+
+.text input {
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.text label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #adadad;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+}
+
+.text span::backdrop{
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 0px;
+    height: 2px;
+    background: #2691d9;
+    transition: .5s;
+}
+
+.signup {
+    margin: 30px 0;
+    text-align: center;
+    font-size: 16px;
+    color: #666666;
+}
+
+.signup a {
+    color: #2691d9;
+    text-decoration: none;
+}
+
+.signup a:hover {
+    text-decoration: underline;
+}
+
+input[type="submit"] {
+    width: 100%;
+    height: 50px;
+    border: 1px solid;
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 10px;
+}
+
+input[type="submit"]:hover {
+    background: purple;
+    color: white;
+    transition: .5s;
+}
